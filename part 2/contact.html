@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <div style="color:white;">
+        <h1>Contact Me</h1>
+        <p><strong>Email:</strong><a href="mailto:jorgesilveyra@muhlenberg.edu">jorgesilveyra@muhlenberg.edu</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+1484-664-3100">(484) 664-3100</a></p>
+        <p><strong>Address:</strong> <a href="https://goo.gl/maps/yq7xUY1PwpSYxUxU7">2400 W Chew St Allentown, PA
+                19046</a></p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3029.4698690854234!2d-75.5105004!3d40.5974557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c43a19166b7e55%3A0x73ba2c430a97b193!2s2400%20W%20Chew%20St%2C%20Allentown%2C%20PA%2018104!5e0!3m2!1sen!2sus!4v1662573955560!5m2!1sen!2sus"
+            width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="name" name="name" id="name" placeholder="your name">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="your email">
+            <br>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="your phone number"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Ex. 000-000-0000">
+            <h6 style="margin-top: 5px; margin-bottom: 5px;">Ex. 000-000-0000</h6>
+            <label for="Color" style="margin-top: 5px; margin-bottom: 5px;">Favorite Color:</label>
+            <input type="color" name="color" id="color">
+            <h5 style="margin-bottom: 5px;">Message:</h5>
+            <textarea name="message" id="message" placeholder="your message" cols="30" rows="10"></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
