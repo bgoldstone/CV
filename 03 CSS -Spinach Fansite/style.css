@@ -6,6 +6,10 @@ h1 {
 img {
   height: 300px;
 }
+img:hover {
+  opacity: 75%;
+  border-width: 0px;
+}
 p {
   margin: auto;
   padding: auto;
