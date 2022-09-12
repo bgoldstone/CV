@@ -1,0 +1,31 @@
+h1 {
+  color: green;
+  font-size: 100px;
+}
+
+img {
+  height: 300px;
+}
+p {
+  margin: auto;
+  padding: auto;
+  font-size: 25px;
+  color: rgb(33, 164, 6);
+  font-weight: 1000;
+}
+/* Class Selectors */
+.sailor {
+  border-radius: 50px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  margin-top: 20px;
+}
+/* ID Selectors */
+#brutus-img {
+  background-color: maroon;
+}
+
+#popeye-img {
+  background-color: green;
+}
