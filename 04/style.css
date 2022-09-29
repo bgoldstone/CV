@@ -1,18 +1,21 @@
+/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,500;1,700;0,900,1,900&display=swap");
 @font-face {
   font-family: "Comic Sans MS";
   src: url("./comic.ttf"), format("truetype");
 }
+/* Override default styles */
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   position: relative;
+  text-align: center;
 }
-* {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+/* Tag styles */
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
@@ -22,98 +25,124 @@ h2 {
   font-style: italic;
   font-weight: 900;
 }
-
 h3 {
-  padding-top: 10px;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
+  padding-top: 10px;
 }
+/* Class Styles */
 .cloud {
-  position: relative;
-  width: 200px;
-  top: 275px;
-  right: 400px;
   padding-top: 100px;
-}
-
-.bottom-cloud {
   position: relative;
+  right: 400px;
+  top: 275px;
   width: 200px;
+}
+.bottom-cloud {
   bottom: 575px;
   left: 700px;
+  position: relative;
+  width: 200px;
 }
-
 .mountain {
   position: relative;
   right: 100px;
 }
-
 .header {
-  position: relative;
   bottom: 100px;
+  position: relative;
 }
-
 .box {
+  border-style: solid;
   height: 300px;
   width: 300px;
-  border-style: solid;
 }
 .top {
+  background-color: rgb(149, 0, 0);
   border: 10px solid black;
   padding: 20px;
-  background-color: rgb(149, 0, 0);
 }
 .middle {
-  border: 20px solid black;
   background-color: green;
+  border: 20px solid black;
   margin-left: auto;
   margin-right: auto;
 }
 .bottom {
-  border: 10px solid black;
   background-color: blue;
+  border: 10px solid black;
   margin-left: auto;
 }
-
 .heading {
   color: rgb(200, 249, 255);
 }
 .box-mb {
   margin-bottom: 50px;
 }
-
 .skills {
   display: flex;
-  justify-content: space-evenly;
   font-weight: bold;
-  padding-top: 20px;
+  justify-content: space-evenly;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
-
-#section-1 {
-  background-color: chocolate;
-  margin-bottom: 0px;
-}
-
-#section-2 {
-  background-color: darkgreen;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 100px;
-}
-
-.section-2-header {
-  font-weight: 900;
-  font-size: 4.5em;
-  padding-bottom: 100px;
+#section-2-header {
   color: rgb(186, 65, 129);
   font-family: "Comic Sans MS", sans-serif;
+  font-size: 4.5em;
+  font-weight: 900;
+  padding-bottom: 4.25em;
+}
+.skills-text {
+  font-size: 3em;
+  font-weight: bold;
+}
+/* id styles */
+#section-1 {
+  background-color: chocolate;
+  padding-bottom: 2em;
+}
+#section-2 {
+  background-color: darkgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
 }
 
-.skills-text {
+#section-3 {
+  background-color: rgb(28, 24, 36);
+  padding: 1em;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+#flex-section-3 {
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+}
+#section-3-header {
+  position: relative;
+  color: rgb(214, 214, 214);
+  bottom: 100px;
+  font-size: 4.5em;
+  font-family: "Comic Sans MS", sans-serif;
+}
+#section-3,
+#section-3 a {
+  color: white;
+}
+
+#section-3 label {
   font-weight: bold;
-  font-size: 3em;
+}
+#section-3 input::placeholder,
+#section-3 textarea::placeholder {
+  padding-left: 5px;
+  color: black;
 }
