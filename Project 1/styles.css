@@ -1,0 +1,60 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #efefef;
+}
+
+h1 {
+  margin: 50px;
+  font-family: "Pacifico", cursive;
+  text-shadow: 5px 0 #ecc5fb;
+  font-size: 6rem;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  color: #9b56ef;
+}
+h2 {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  font-weight: bold;
+  font-size: 3em;
+  color: rgb(0, 144, 24);
+}
+
+#blink {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+p {
+  font-size: 3rem;
+  color: #874ecc;
+  font-family: "Pacifico", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 2em;
+  padding-bottom: 2em;
+  color: #ee00ff;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+}
