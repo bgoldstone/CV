@@ -13,7 +13,7 @@ let img2 = document.querySelector(".img2");
 setImg(img1, randomNum());
 setImg(img2, randomNum());
 // Win Text
-let winText = document.querySelector("#win-text");
+let winText = document.querySelector("#blink");
 
 // Random roll for each player
 let player1 = randomNum();
@@ -25,7 +25,7 @@ window.onload = () => {
   for (let index = 0; index < 10; index++) {
     setTimeout(() => {
       setImg(img1, randomNum());
-      setImg(img2.randomNum());
+      setImg(img2, randomNum());
     }, getOffset());
   }
   // Sets actual dice value
