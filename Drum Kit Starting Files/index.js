@@ -7,7 +7,6 @@ let audioFiles = [
   "sounds/tom-2.mp3",
   "sounds/tom-3.mp3",
   "sounds/tom-4.mp3",
-  "sounds/tom-4.mp3",
 ];
 let audio = [];
 for (let audioFile in audioFiles) {
@@ -26,17 +25,20 @@ for (let btn in buttons) {
       case "KeyA":
         audio[1].play();
         break;
-      case "KeyD":
+      case "KeyS":
         audio[2].play();
         break;
-      case "KeyJ":
+      case "KeyD":
         audio[3].play();
         break;
-      case "KeyK":
+      case "KeyJ":
         audio[4].play();
         break;
-      case "KeyL":
+      case "KeyK":
         audio[5].play();
+        break;
+      case "KeyL":
+        audio[6].play();
         break;
     }
   });
