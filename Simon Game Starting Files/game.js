@@ -29,10 +29,8 @@ function newSequence() {
   let randomChosenColor = buttonColors[randomNumber];
   gamePattern.push(randomChosenColor);
 
-  for (const color of gamePattern) {
-    $(`#${color}`).fadeOut(250).fadeIn(250);
-    playButtonSound(color);
-  }
+  $(`#${randomChosenColor}`).fadeOut(250).fadeIn(250);
+  playButtonSound(randomChosenColor);
 }
 
 /**
