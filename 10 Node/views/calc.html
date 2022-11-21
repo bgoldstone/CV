@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator1</title>
+  </head>
+  <body>
+    <form action="/calc" method="POST">
+      <label for="number1">Weight: </label>
+      <input
+        type="number"
+        name="number1"
+        id="number1"
+        required
+        placeholder="Weight(lbs)"
+      />
+      <br />
+      <br />
+      <label for="number2">Height: </label>
+      <input
+        type="number"
+        name="number2"
+        id="number2"
+        required
+        placeholder="Height (in)"
+      />
+      <br />
+      <br />
+      <button type="submit">Calculate</button>
+    </form>
+  </body>
+</html>
