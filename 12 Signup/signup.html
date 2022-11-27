@@ -23,13 +23,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./signin.css" />
-
-    <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet" />
   </head>
-
   <body class="text-center">
-    <form class="form-signin">
+    <form class="form-signin" action="/" method="POST">
       <img
         class="mb-4"
         src="https://franklincountypadems.org/wp-content/uploads/2020/01/Mailchimp-Logo.png"
@@ -41,6 +37,7 @@
       <input
         type="text"
         id="firstName"
+        name="firstName"
         class="form-control top"
         placeholder="First Name"
         required
@@ -49,6 +46,7 @@
       <input
         type="text"
         id="lastName"
+        name="lastName"
         class="form-control middle"
         placeholder="Last Name"
         required
@@ -57,6 +55,7 @@
       <input
         type="email"
         id="inputEmail"
+        name="email"
         class="form-control end"
         placeholder="Email address"
         required
