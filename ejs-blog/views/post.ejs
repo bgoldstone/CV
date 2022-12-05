@@ -1,4 +1,7 @@
 <%- include('partials/header'); %>
-<h1><%= posts[id].postTitle %></h1>
-<p><%= posts[id].postBody.substring(0,100) %></p>
+<div class="container">
+  <h1>Post</h1>
+  <h2><%= posts[id].postTitle %></h2>
+  <p><%= posts[id].postBody %></p>
+</div>
 <%- include('partials/footer'); %>
